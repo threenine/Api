@@ -1,0 +1,21 @@
+<Project>
+    <PropertyGroup>
+        <Authors>Gary Woodfine</Authors>
+        <TargetFramework>net7.0</TargetFramework>
+        <Title>Threenine Base API project libraries</Title>
+        <Description>a number of base utilities, generators, analysers and functionality to be used within the API Template Pack and API Construct</Description>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>api project, OpenApi,repr, rest</PackageTags>
+        <RepositoryUrl>https://github.com/threenine/api</RepositoryUrl>
+        <Copyright>Copyright © $([System.DateTime]::Now.ToString("yyyy")) Three Nine Consulting Limited</Copyright>
+        <PackageProjectUrl>https://www.apitemplatepack.com</PackageProjectUrl>
+        <license>https://github.com/threenine/api/blob/master/LICENSE</license>
+        <PackageIcon>icon.png</PackageIcon>
+        <Version>0.0.1</Version>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)icon.png" Pack="true" PackagePath="/">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+</Project>
